@@ -9,4 +9,4 @@ def gcd(m,n):
     return (n)
   else: 
     diff =m-n
-    return (gcd(max(m-n),min(m-n)))
+    return (gcd(max(n,diff),min(n,diff)))
